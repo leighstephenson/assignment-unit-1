@@ -1,11 +1,74 @@
-/* Give your page a fun background color */
+/* x Give your page a fun background color */
 
-/* Make the header and footer a different color from the background */
+/* x Make the header and footer a different color from the background */
 
-/* Align the h1 containing your name in the center of the header*/
+/* x Align the h1 containing your name in the center of the header*/
 
-/* Make your p tag a different color and italic */
+/* x Make your p tag a different color and italic */
 
-/* Put a border around your image */
+/* x Put a border around your image */
 
-/* Change the font-family of your list */
+/* x Change the font-family of your list */
+
+
+header{ 
+    background-color: orangered;
+    color: black;
+    padding: 50px;
+
+}
+
+h1, h2 {
+    color: white);
+    font-size: 35px;
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    text-decoration-line: underline;
+  
+  }
+
+body{
+    background-color: beige;
+}
+
+  p {
+
+    color: white;
+    font-style: italic; 
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  }
+
+  img { 
+    border-style: inset;
+    border-color: orange;
+    border-width: 5px;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  ul{
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 13px;
+    font-color: green;
+    display: inline-block;
+    text-align: left;
+
+    
+  }
+
+  footer{
+    background-color: orangered;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    
+  }
+
+  div{
+    max-width: 700px;
+    margin: 0 auto; 
+  }
